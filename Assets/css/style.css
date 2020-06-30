@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url('../img/header-bg.jpg') center top/cover;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    padding-top:57px
+}
+
+.header__nav{
+    padding-left: 70px;
+}
+
+
+.header__links{
+    font-family: Anton;
+    
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+
+    padding-right: 40px;
+}
+
+.header__telefon{
+    font-family: Anton;
+    
+    font-size: 17px;
+    line-height: 25px;
+
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-left: auto;
+}
+
+
+
+
+/*=========Offer===============================*/
+
+
+.offer__inner{
+    margin-top: 216px;
+    padding-bottom:322px
+}
+
+.offer__title{
+    font-family: Anton;
+
+    font-size: 30px;
+    line-height: 44px;
+
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.offer__title2{
+    font-family: Anton;
+    font-size: 100px;
+    line-height: 147px;
+
+    text-transform: uppercase;
+    margin-top: -9px;
+    margin-left: -3px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.offer__button{
+    display: block;
+    font-family: Anton;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 17px 47px;
+    width: 238px;
+}
+
+
+/*============About================*/
+
+.about{
+    background: #E5E5E5;
+}
+.about__blocks{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 67px;
+}
+.block{
+    width: 564px;
+}
+.about__title{
+    font-family: Anton;
+    font-size: 50px;
+    line-height: 73px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+    padding: 113px 0 58px 0;
+}
+
+.block__title{
+    font-family: Anton;
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.block__text{
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.about__galery{
+    display: flex;
+    justify-content: space-between;
+}
+.about__img{
+    height: 344px;
+}
+
+
+
+/*============Footer================*/
+
+.footer{
+    background: #E5E5E5;
+    padding-top: 114px;
+}
+.footer__copyright{
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #000000;
+
+    padding-bottom: 80px;
+}
