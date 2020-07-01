@@ -81,7 +81,7 @@
     flex-direction: column;
 
     padding-top: 260px;
-    position: absolute;
+    position: fixed;
     background: rgba(0,0,0,0.9);
     left: 0;
     top: 0;
